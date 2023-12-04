@@ -14,7 +14,7 @@ body
 {
     position: relative; 
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 /* introduction */
@@ -62,5 +62,106 @@ body
 /* partners */
 .partners
 {
-    background-color: rgb(146, 146, 146);
+    display: flex;
+    text-align: center;
 }
+.partners-general
+{
+    flex: 0.4;
+}
+.partners-other
+{
+    flex: 0.6;
+    display: grid;
+}
+.partners-main
+{
+
+}
+.partners-race
+{
+
+}
+.partner-img img
+{
+    margin: 0 auto;
+    margin-top: 10%;
+    display: block;
+}
+.partner-img-big
+{
+    max-height: 20vh;
+}
+.partner-img-small
+{
+    max-height: 10vh;
+}
+
+/* events */
+.events
+{
+    background-color: red;
+}
+
+/* circuits */
+.circuits
+{
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.square {
+    width: 30vw; /* Adjust the width as needed, considering margins */
+    height: 40vh;
+    background-color: #3498db; /* Just for demonstration, you can change the color */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+
+
+
+
+
+/* text */
+.underline
+{
+    text-decoration: underline;
+    text-decoration-color: #B50000;
+}
+.title
+{
+    color: #EA3737;
+    font-size: 70px;
+    font-weight: 900;
+}
+.subtitle
+{
+    color: #EA3737;
+    font-size: 50px;
+    font-weight: 800;
+}
+.text
+{
+
+}
+
+/* footer */
+.footer
+{
+    height: 15vh;
+    width: 100%;
+    background-color: #B50000;
+}
+
+
+/* mobile */
+/* @media only screen and (max-width: 768px) {
+    body {
+        flex-wrap: wrap;
+    }
+} */
