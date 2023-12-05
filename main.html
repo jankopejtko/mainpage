@@ -75,16 +75,50 @@
         
     </div>
     <div class="contact full-screen-div">
-        
+        <a class="text-bold text-red underline title">Kontakt</a>
+        <div class="contact-form">
+            <div class="contact-half">
+                <form>
+                    <input style="width: 25%;" type="text" id="firstName" name="firstName" required placeholder="Jméno">
+            
+                    <input style="width: 25%;" type="text" id="lastName" name="lastName" required placeholder="Přijmení">
+            
+                    <input type="email" id="email" name="email" required placeholder="Email">
+            
+                    <select id="questionType" name="questionType">
+                        <option value="" disabled selected>Vyberte druh dotazu</option>
+                        <option value="general">General Question</option>
+                        <option value="technical">Technical Question</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+            
+                    <textarea id="message" name="message" rows="4" required placeholder="Zpráva..."></textarea>
+                    <br>
+                    <button class="text-bold" type="submit">Odeslat</button>
+                </form>
+
+            </div>
+            <div class="divider"></div>
+            <div class="contact-half">
+                asdasd
+            </div>
+        </div>
+
     </div>
     <footer class="footer">
         <div class="footer-left">
-            <p class="text-white text-bold">kontakt</p>
-            <p class="text-white">+420 123 312 123</p>
-            <p class="text-white">info@fdrive.cz</p>
+            <div class="footer-informations">
+                <p class="text-white text-bold">kontakt</p>
+                <p class="text-white">+420 123 312 123</p>
+                <p class="text-white">info@fdrive.cz</p>
+            </div>
+            <div class="footer-icons">
+                <a href=""><img src="img/instagram icon.svg" alt=""></a>
+                <a href=""><img src="img/facebook icon.svg" alt=""></a>
+            </div>
         </div>
         <div class="footer-center">
-            <p class="text-white">©fdrive</p>
+            <p class="text-white text-bold">©fdrive</p>
             <p class="text-white">created by BIZNET</p>
         </div>
     </footer>
