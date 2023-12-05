@@ -118,9 +118,9 @@ body
 
 .square {
     min-width: 200px;
+    min-height: 100px;
     width: 30vw;
     height: 20vw;
-    background-color: #3498db; 
     margin: 10px;
     box-shadow: 2px 2px 10px black;
     justify-content: center;
@@ -161,11 +161,15 @@ body
 }
 .text-medium
 {
-    font-size: 2rem;
+    font-size: 20px;
 }
 .text-black
 {
     color: black;
+}
+.text-white
+{
+    color: white;
 }
 
 
@@ -175,8 +179,18 @@ body
     height: 15vh;
     width: 100%;
     background-color: #B50000;
+    display: flex;
+    justify-content: space-between;
 }
-
+.footer-left
+{
+    width: 30%;
+}
+.footer-center
+{
+    width: 30%;
+    text-align: center;
+}
 
 /* mobile */
 @media only screen and (max-width: 768px) {
@@ -184,7 +198,21 @@ body
     {
         display: flex;
         flex-wrap: wrap;
-        height: fit-content;
-        
+    }
+    .title
+    {
+        color: #EA3737;
+        font-size: 35px;
+        font-weight: 900;
+    }
+    .subtitle
+    {
+        color: #EA3737;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .text-medium
+    {
+        font-size: 10px;
     }
 }
